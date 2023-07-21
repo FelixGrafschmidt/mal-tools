@@ -623,6 +623,11 @@
   dependencies:
     "@hapi/hoek" "^9.0.0"
 
+"@headlessui/vue@^1.0.0":
+  version "1.7.14"
+  resolved "https://registry.yarnpkg.com/@headlessui/vue/-/vue-1.7.14.tgz#cc10712044944bc728f5ef8b2df2174c1194a55e"
+  integrity sha512-aL9U9Sa7wdOzlrfjx6EjMIYNRCma5mngWcWzQBcHFwznpRZ8g/QZ/AYFtRDrZZUw22Ttttja4D7ZRXFwhONewA==
+
 "@humanwhocodes/config-array@^0.11.10":
   version "0.11.10"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.10.tgz#5a3ffe32cc9306365fb3fd572596cd602d5e12d2"
@@ -908,7 +913,7 @@
     which "^3.0.1"
     ws "^8.13.0"
 
-"@nuxt/kit@3.6.5", "@nuxt/kit@^3.5.0", "@nuxt/kit@^3.6.1", "@nuxt/kit@^3.6.2", "@nuxt/kit@^3.6.5":
+"@nuxt/kit@3.6.5", "@nuxt/kit@^3.4.1", "@nuxt/kit@^3.5.0", "@nuxt/kit@^3.6.1", "@nuxt/kit@^3.6.2", "@nuxt/kit@^3.6.5":
   version "3.6.5"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.6.5.tgz#208777acdc2a09109fbe4209aad736874eb9a3f5"
   integrity sha512-uBI5I2Zx6sk+vRHU+nBmifwxg/nyXCGZ1g5hUKrUfgv1ZfiKB8JkN5T9iRoduDOaqbwM6XSnEl1ja73iloDcrw==
@@ -1550,10 +1555,23 @@
     "@unocss/core" "0.53.5"
     unconfig "^0.3.9"
 
+"@unocss/config@^0.49.4":
+  version "0.49.8"
+  resolved "https://registry.yarnpkg.com/@unocss/config/-/config-0.49.8.tgz#7dd025af0dd2ab9c88342629edaab5e84b68e090"
+  integrity sha512-tEpxZ/FvmvBV+PdF7hiqRT7F4PTI2HG6Ytw4cgusmp62VeWJ1t1L+9DuGsUDpaLL/LYyYS7wiCdZj/m+GeNBLg==
+  dependencies:
+    "@unocss/core" "0.49.8"
+    unconfig "^0.3.7"
+
 "@unocss/core@0.31.17":
   version "0.31.17"
   resolved "https://registry.yarnpkg.com/@unocss/core/-/core-0.31.17.tgz#e4f74f0495b8c395f6b0090dbcb371d3ce5d40c7"
   integrity sha512-DJ3Uk2ePVXvV1qQmgoLK44aqB6f0s+naOEvouI97nzVXDZgxDQPBxIPB/L4vvE4U+gQxEiHwwE3gJ75iPqVzXw==
+
+"@unocss/core@0.49.8", "@unocss/core@^0.49.4":
+  version "0.49.8"
+  resolved "https://registry.yarnpkg.com/@unocss/core/-/core-0.49.8.tgz#44467a364dbe0d5c0504e864b0f7a4aaf55dee12"
+  integrity sha512-00BXRcMn6ERIkWHM64g6Uv6YZ3GUR8HjrMAzJZdd+04WcG2xCOyen8k+yDCxslqL0YsLqXYyLsgFSunHfYWy8w==
 
 "@unocss/core@0.53.5":
   version "0.53.5"
@@ -3698,6 +3716,15 @@ eslint-plugin-unicorn@^44.0.2:
     safe-regex "^2.1.1"
     semver "^7.3.7"
     strip-indent "^3.0.0"
+
+eslint-plugin-unocss@^0.0.1-alpha.3:
+  version "0.0.1-alpha.3"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-unocss/-/eslint-plugin-unocss-0.0.1-alpha.3.tgz#0f39733c7f1338d5a8e4a4f91af252cee8f3c9a3"
+  integrity sha512-fRPwI8t/NkhwjAxWXeg2/pTPvFIm+12AnHlhO6dd/S1JRGNfDYWObTwrlNKL5a/FVFezhuguGInn9bLq50EN6g==
+  dependencies:
+    "@unocss/config" "^0.49.4"
+    "@unocss/core" "^0.49.4"
+    synckit "^0.8.5"
 
 eslint-plugin-vitest@^0.2.6:
   version "0.2.6"
@@ -5880,6 +5907,15 @@ nuxi@3.6.5:
   optionalDependencies:
     fsevents "~2.3.2"
 
+nuxt-headlessui@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/nuxt-headlessui/-/nuxt-headlessui-1.1.4.tgz#05fba6a7c5e333d1bc8f0c0af4f65954080072de"
+  integrity sha512-/8C1w/nfBJBFzWvD/WUxwHFviPECO6owj8JgmwOK348E0IE7ZKhpFuEuy8rZ2hSm/JWexvz3QbmMRfndfzl3qw==
+  dependencies:
+    "@headlessui/vue" "^1.0.0"
+    "@nuxt/kit" "^3.4.1"
+    pathe "^1.1.0"
+
 nuxt-icon@^0.4.2:
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/nuxt-icon/-/nuxt-icon-0.4.2.tgz#040efe9463b06d0d48d8e84702582758a5e76357"
@@ -7697,7 +7733,7 @@ unbzip2-stream@^1.0.9:
     buffer "^5.2.1"
     through "^2.3.8"
 
-unconfig@^0.3.9:
+unconfig@^0.3.7, unconfig@^0.3.9:
   version "0.3.9"
   resolved "https://registry.yarnpkg.com/unconfig/-/unconfig-0.3.9.tgz#aa4610fd2982c319b4ca87b703741f60c0873e21"
   integrity sha512-8yhetFd48M641mxrkWA+C/lZU4N0rCOdlo3dFsyFPnBHBjMJfjT/3eAZBRT2RxCRqeBMAKBVgikejdS6yeBjMw==
@@ -8283,6 +8319,7 @@ widest-line@^4.0.1:
     string-width "^5.0.1"
 
 "wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
+  name wrap-ansi-cjs
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
   integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==

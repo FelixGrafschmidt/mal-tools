@@ -14,6 +14,7 @@ module.exports = {
 		"plugin:prettier/recommended",
 		"plugin:vue/base",
 		"plugin:nuxt/recommended",
+		"plugin:unocss/recommended",
 		"@unocss",
 	],
 	plugins: ["prettier", "@typescript-eslint", "vitest"],
