@@ -7,6 +7,6 @@ export default defineNuxtConfig({
 			enabled: true,
 		},
 	},
-	modules: ["@pinia/nuxt", "@unocss/nuxt", "nuxt-icon", "@vueuse/nuxt", "nuxt-headlessui"],
+	modules: ["@pinia/nuxt", "@unocss/nuxt", "nuxt-icon", "@vueuse/nuxt", "nuxt-headlessui", "ui.felgraf.dev"],
 	vite: {},
 });

@@ -2,8 +2,8 @@
 	"name": "nuxt-app",
 	"private": true,
 	"scripts": {
-		"build": "nuxt build",
 		"dev": "nuxt dev",
+		"build": "nuxt build",
 		"generate": "nuxt generate",
 		"preview": "nuxt preview",
 		"postinstall": "nuxt prepare",
@@ -43,6 +43,7 @@
 		"prettier": "^3.0.0",
 		"tslib": "^2.6.0",
 		"typescript": "^5.1.6",
+		"ui.felgraf.dev": "^1.0.3",
 		"unocss": "^0.53.5",
 		"unocss-preset-scrollbar": "^0.2.1",
 		"vite": "^4.4.6",
