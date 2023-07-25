@@ -7710,10 +7710,10 @@ ufo@^1.1.1, ufo@^1.1.2:
   resolved "https://registry.yarnpkg.com/ufo/-/ufo-1.1.2.tgz#d0d9e0fa09dece0c31ffd57bd363f030a35cfe76"
   integrity sha512-TrY6DsjTQQgyS3E3dBaOXf0TpPD8u9FVrVYmKVegJuFw51n/YB9XPt+U6ydzFG5ZIN7+DIjPbNmXoBj9esYhgQ==
 
-ui.felgraf.dev@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/ui.felgraf.dev/-/ui.felgraf.dev-1.0.3.tgz#9f8271ff58fdf72ccd9f50d062260a62ee3cd150"
-  integrity sha512-ly65zDDEgiK2+/cLQRdfVAKVjOMTi5qXABu6A3Um0g0jIooDhrUC4l37d2QkilsU9Y+XIrAe7rI7CXBxnMY5Dg==
+ui.felgraf.dev@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/ui.felgraf.dev/-/ui.felgraf.dev-1.0.5.tgz#ba020041800e69317bfe007707f1dde8e55ab30c"
+  integrity sha512-wD9obnry4xZwaqwawItZymmlsFjpJhy1ZpN69Qs63AxUlleDpQpWbHNcMkMvgGuOp0S8PgfBwO7KDPA2k1SH6g==
   dependencies:
     "@nuxt/kit" "^3.6.5"
     "@unocss/nuxt" "^0.53.5"
